@@ -24,17 +24,26 @@ data
 
 f <- function(start, x) 10^(x-start)
 
-p1 = ggplot(data, aes(x=Date, y=Count, group=Country, color=Country)) +
+p_cnt = ggplot(data, aes(x=Date, y=Count, group=Country, color=Country)) +
 	scale_y_log10(limits=c(1, NA)) +
 	geom_point() +
 	geom_smooth() +
+	labs(y="Cases") +
 	theme_minimal_grid() + theme(legend.position="bottom")
 
-p2 = ggplot(data, aes(x=Date, y=DiffFract, group=Country, color=Country)) +
+p_diff = ggplot(data, aes(x=Date, y=Diff, group=Country, color=Country)) +
+	scale_y_continuous(limits=c(-100, NA)) +
+	coord_cartesian(ylim=c(0, NA)) +
+	geom_point() +
+	geom_smooth() +
+	labs(y="New cases") +
+	theme_minimal_grid() + theme(legend.position="bottom")
+
+p_difffract = ggplot(data, aes(x=Date, y=DiffFract, group=Country, color=Country)) +
 	scale_y_continuous(limits=c(-1, NA)) +
 	coord_cartesian(ylim=c(0, NA)) +
 	geom_point() +
 	geom_smooth() +
 	theme_minimal_grid() + theme(legend.position="bottom")
 
-plot_grid(p1, p2)
+plot_grid(p_cnt, p_diff, nrow=1)
