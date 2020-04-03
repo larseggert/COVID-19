@@ -18,9 +18,9 @@ data = mutate(data, Date=mdy(Date))
 
 data = filter(data, Count > 1)
 
-data = mutate(data, Diff=Count - lag(Count), DiffFract=Diff/Count)
+data = mutate(data, Diff=Count-lag(Count, default=first(Count)), DiffFract=Diff/Count)
 
-data
+print(data, n=1000)
 
 f <- function(start, x) 10^(x-start)
 
