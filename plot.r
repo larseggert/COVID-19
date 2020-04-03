@@ -46,4 +46,4 @@ p_difffract = ggplot(data, aes(x=Date, y=DiffFract, group=Country, color=Country
 	geom_smooth() +
 	theme_minimal_grid() + theme(legend.position="bottom")
 
-plot_grid(p_cnt, p_diff, nrow=1)
+plot_grid(p1, p2)
