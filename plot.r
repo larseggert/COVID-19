@@ -3,6 +3,7 @@
 if (!require("pacman"))
 	install.packages("pacman", repos = "https://cloud.r-project.org/")
 pacman::p_load(tidyverse, cowplot, lubridate, scales, wpp2019, RcppRoll)
+pdf(NULL)
 
 data = read_csv("csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
 
@@ -68,4 +69,6 @@ p_diff100k = ggplot(data, aes(x=Date, y=Diff100K, group=Country, color=Country))
 	labs(y="New cases per 100K in last 14 days") +
 	theme_minimal_grid() + theme(legend.position="bottom")
 
-plot_grid(p_cnt, p_diff100k, nrow=1)
+final = plot_grid(p_cnt, p_diff, p_diff100k, nrow=1)
+
+save_plot("corona.pdf", final, base_width=15, base_height=5)
