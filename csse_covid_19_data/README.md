@@ -6,6 +6,9 @@
  * [USA daily state reports (csse_covid_19_daily_reports_us)](#usa-daily-state-reports-csse_covid_19_daily_reports_us)
  * [Time series summary (csse_covid_19_time_series)](#time-series-summary-csse_covid_19_time_series)
  * [Data modification records](#data-modification-records)
+ * [Retrospective reporting of (probable) cases and deaths](#retrospective-reporting-of-probable-cases-and-deaths)
+ * [Large-scale back distributions](#large-scale-back-distributions)
+ * [Irregular Update Schedules](#irregular-update-schedules)
  * [UID Lookup Table Logic](#uid-lookup-table-logic)
 ---
 
@@ -196,6 +199,7 @@ Date: Location | Change | Reason/Other notes | Source
 * October 18: Navajo County, Arizona | Reduction of -52 cases | Reconciliation of database entry errors | [Source](https://twitter.com/NavajoCountyAZ/status/1317506622281850881)
 * October 23: Alabama, US | Inclusion of 2565 backlogged antigen positives in Mobile and 1182 backlogged antigen and PCR tests from around the state | [Source](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7) "The Alabama Department of Public Health processed a backlog of 2565 positive antigen results from a facility in Mobile on October 22. These will be classified as “probable” COVID-19 cases reported on 10/22/20 even though the tests were performed during June through October 18, 2020. The Alabama Department of Public Health processed a backlog of 1182 positive results from a variety of facilities all over Alabama. A majority of these will be classified as “probable” COVID-19 cases reported on 10/23/20 even though the tests were performed during April through September."
 * October 23: Los Angeles County, California, US | Estimated 2000 backlogged cases included in daily report | [Source](https://github.com/CSSEGISandData/COVID-19/issues/3267)
+* October 27: Alaska | Add non-resident cases from March 12 to October 26 | Confirmed cases - time series tables for the US and global | NA | [Cases by date reported](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/geographic-distribution-of-all-cases-by-date-reported)
 
 ## Large-scale back distributions
 This section will serve to notify developers when we are able to successfully backdistribute any of the large instances of retrospective reporting.
@@ -262,7 +266,7 @@ International
   *	Unassigned, US: UID = 840 (country code3) + 900XX (state FIPS code). Ranging from 8409001 to 84090056.
   *	US counties: UID = 840 (country code3) + XXXXX (5-digit FIPS code).
   *	Exception type 1, such as recovered and Kansas City, ranging from 8407001 to 8407999.
-  *	Exception type 2, Bristol Bay plus Lake Peninsula replaces Bristol Bay and its FIPS code. Population is 836 (Bristol Bay) + 1,592 (Lake and Peninsula) = 2,428 (Bristol Bay plus Lake Peninsula). ~~New York City replaces New York County and its FIPS code. New York City popluation is calculated as Bronx (1,418,207) + Kings (2,559,903) + New York (1,628,706) + Queens (2,253,858) + Richmond (476,143) = NYC (8,336,817). (updated on Aug 31)~~ 
+  *	Exception type 2, Bristol Bay plus Lake Peninsula replaces Bristol Bay and its FIPS code. Population is 836 (Bristol Bay) + 1,592 (Lake and Peninsula) = 2,428 (Bristol Bay plus Lake Peninsula). 2148 (Hoonah-Angoon) + 579 (Yakutat) = 2727 (Yakutat plus Hoonah-Angoon). UID is 84002282, the same as Yakutat. ~~New York City replaces New York County and its FIPS code. New York City popluation is calculated as Bronx (1,418,207) + Kings (2,559,903) + New York (1,628,706) + Queens (2,253,858) + Richmond (476,143) = NYC (8,336,817). (updated on Aug 31)~~ 
   *	Exception type 3, Diamond Princess, US: 84088888; Grand Princess, US: 84099999.
   * Exception type 4, municipalities in Puerto Rico are regarded as counties with FIPS codes. The FIPS code for the unassigned category is defined as 72999.
 4. Population data sources.
