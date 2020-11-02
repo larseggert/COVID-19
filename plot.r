@@ -11,6 +11,8 @@ data = rename(data, Country = "Country/Region", State = "Province/State")
 
 data = filter(data, is.na(State))
 
+data$Country[ data$Country == "United Kingdom" ] <- "UK"
+
 data = select(data, Country, ends_with("/20"))
 
 data = filter(data, Country %in% commandArgs(trailingOnly=TRUE))
@@ -22,6 +24,9 @@ data = mutate(data, Date=mdy(Date))
 data = filter(data, Count > 1)
 
 data(pop)
+pop$name[ pop$name == "United States of America" ] <- "US"
+pop$name[ pop$name == "United Kingdom" ] <- "UK"
+
 p = filter(pop, name %in% commandArgs(trailingOnly=TRUE))
 p = select(p, name, "2020")
 p = rename(p, Population = "2020")
@@ -42,7 +47,7 @@ f <- function(start, x) 10^(x-start)
 p_cnt = ggplot(data, aes(x=Date, y=Count, group=Country, color=Country)) +
 	scale_y_log10(limits=c(1, NA), labels=comma_format(accuracy=1)) +
 	geom_point() +
-	geom_smooth() +
+	# geom_smooth() +
 	labs(y="Cases") +
 	theme_minimal_grid() + theme(legend.position="bottom")
 
@@ -58,14 +63,14 @@ p_difffract = ggplot(data, aes(x=Date, y=DiffFract, group=Country, color=Country
 	scale_y_continuous(limits=c(-1, NA), labels=comma_format(accuracy=1)) +
 	coord_cartesian(ylim=c(0, NA)) +
 	geom_point() +
-	geom_smooth() +
+	# geom_smooth() +
 	theme_minimal_grid() + theme(legend.position="bottom")
 
 p_diff100k = ggplot(data, aes(x=Date, y=Diff100K, group=Country, color=Country)) +
 	scale_y_continuous(limits=c(-1, NA), labels=comma_format(accuracy=1)) +
 	coord_cartesian(ylim=c(0, NA)) +
 	geom_point() +
-	geom_smooth() +
+	# geom_smooth() +
 	labs(y="New cases per 100K in last 14 days") +
 	theme_minimal_grid() + theme(legend.position="bottom")
 
