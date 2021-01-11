@@ -123,6 +123,7 @@ This list includes a complete list of all sources ever used in the data set, sin
   - California: Humboldt County: https://humboldtgov.org/
   - California: Madera County: https://www.maderacounty.com/government/public-health/corona-virus-covid-19/covid-revised
   - California: Marin County Health & Human Services: https://coronavirus.marinhhs.org/
+  - California: Mendocino County: https://www.mendocinocounty.org/community/novel-coronavirus/covid-19-case-data
   - California: Orange County Health Care Agency: https://occovid19.ochealthinfo.com/coronavirus-in-oc
   - California: Placer County: https://www.placer.ca.gov/coronavirus
   - California: Riverside County: https://www.rivcoph.org/coronavirus
@@ -217,7 +218,7 @@ This list includes a complete list of all sources ever used in the data set, sin
   - Netherlands National Institute for Health and Environment: https://experience.arcgis.com/experience/ea064047519040469acb8da05c0f100d
   - Iceland Directorate of Health and Department of Civil Protection and Emergency Management: https://www.covid.is/data
   - Luxembourg Government: https://data.public.lu/fr/datasets/covid-19-rapports-journaliers/#_
-  - Afghanistan: http://covid.moph-dw.org/#/
+  - Afghanistan: http://covid.moph-dw.org/#/ and http://www.afghanistantimes.af/
   - Kazakhstan: https://www.coronavirus2020.kz/
   - Republic of Turkey Ministry of Health: https://covid19.saglik.gov.tr/EN-69532/general-coronavirus-table.html 
     

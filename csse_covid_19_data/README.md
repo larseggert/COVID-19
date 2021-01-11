@@ -163,6 +163,11 @@ Date: Location | Change | Files affected | Reason/Other notes | Source
 * December 15: New York, US | Correction of cases and deaths from November 2 to December 14 for Orange and Rockland counties | All time files and daily reports | [Orange County Dashboard](https://ocnygis.maps.arcgis.com/apps/opsdashboard/index.html#/21de1fb5ce0c480f95dc0cf2b8b83b71) [Rockland County Dashboard](https://rockland-covid-19-portal-rockland.hub.arcgis.com/)
 * December 15: France | Correction of cases and deaths from March 3 to December 14 for in accordance with the Ministry of Solidarity and Health | All time files and daily reports | [Ministry of Solidarity and Health](https://www.data.gouv.fr/en/datasets/donnees-relatives-a-lepidemie-de-covid-19-en-france-vue-densemble/#_)
 * December 15: French Overseas Territories | Correction of cases and deaths from December 6 to December 14 for Guadeloupe, French Guiana, Martinique, Mayotte, and Reunion in accordance to WHO | All time files and daily reports | [WHO](https://covid19.who.int/WHO-COVID-19-global-table-data.csv)
+* December 17: Washington, US | Correction of deaths from April 1 to December 15 and inclusion of probable cases from June 1 to December 15 for Washington in accordance to Washington Department of Health | All time files and daily reports | [Washington Department of Health](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard)
+* December 29: New York, US | Correction of probable cases from August 31 to December 28 for New York City in accordance to NYC Health | All time files and daily reports | [NYC Health](https://www1.nyc.gov/site/doh/covid/covid-19-data-totals.page)
+* January 7, 2021: Texas, US | Correction of probable cases from April 1, 2020 to January 5, 2021 for Tarrant County in accordance to Tarrant County Public Health | All time files and daily reports | [Tarrant County Public Health](https://www.tarrantcounty.com/en/public-health/disease-control---prevention/COVID-19.html)
+* January 10, 2021: New Jersey, US | Correction of probable cases from May 1, 2020 to January 9, 2021 for all counties in accordance with NJ Health COVID-19 Dashboard | All time files and daily reports | [NJ Department of Health](https://www.nj.gov/health/cd/topics/covid2019_dashboard.shtml)
+
 
 
 ## Retrospective reporting of (probable) cases and deaths
@@ -231,6 +236,10 @@ Date: Location | Change | Reason/Other notes | Source
 * December 9: Alabama, US | Addition of backlog of 1038 PCR and 473 probable cases from November 30 - December 5 | [Source](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7)
 * December 10: Turkey | Addition of 792,801 cases asymptomatic cases | [Source](https://covid19.saglik.gov.tr/) | We note that this heavily distorst all of our products and we are attempting to find an official back distribution of this data
 * December 13: Alabama, US | Inclusion of 298 backlogged antigen tests from July 7 through December 9 | [Source](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7)
+* December 16: Washington, US | Inclusion of 7,671 probable cases from June to present | [Source](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) | We are working a back distribution
+* December 16: California, US | California dashboard included 15,337 historical cases in their December 16 update | We pull from several sources including the California State Daashboard so it is unclear how these historical cases are distributed within our data | [Source](https://covid19.ca.gov/state-dashboard/)
+* December 17: Hidalgo, Texas, US | Reduction in cases due to double counting probable and confirmed cases | [Source 1](https://www.hidalgocounty.us/DocumentCenter/View/43316/12162020---Eight-deaths-related-to-COVID-19-reported-in-Hidalgo-County-along-with-377-positive-cases), [Source 2](https://www.hidalgocounty.us/DocumentCenter/View/43374/12172020---Four-deaths-related-to-COVID-19-reported-in-Hidalgo-County-along-with-522-positive-cases)
+* January 5: Alabama, US | Backlog of cases from the holiday period resulted in daily record of cases | Quote from source: "Case counts reported on today's update are high. Today's increase represents a delay in testing and reporting to the Alabama Department of Public Health (ADPH) due to the holiday weekends." | [Source](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7)
 
 ## Large-scale back distributions
 This section will serve to notify developers when we are able to successfully backdistribute any of the large instances of retrospective reporting.
@@ -254,6 +263,7 @@ Date: Location | File | Change | Data source for change
 * December 2: Kazakhstan | Reporting in Kazahkstan has been modified to include probable cases, deaths, and recoveries.  
 * December 4: Guam, US | Back-distribution of probable cases and deaths from official sources | | [Guam Dashboard](https://dphss.guam.gov/covid-19/)
 * December 14: Texas, US | Back-distribution of county level probable cases as provided by the Texas Department of State Health Services | [Source](https://dshs.texas.gov/coronavirus/AdditionalData.aspx)
+* December 17: Washington, US | Back-distribution of 7,671 probable cases from present to June | Back distribution used the [Washington COVID-19 dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard)
 
 ## Irregular Update Schedules
 As the pandemic has progressed, several locations have altered their reporting schedules to no longer provide daily updates. As these locations are identified, we will list them in this section of the README. We anticipate that these irregular updates will cause cyclical spikes in the data and smoothing algorithms should be applied if the data is to be used for modeling.
@@ -269,7 +279,7 @@ United States
 * Guam: Not reporting data on weekends.
 * Michigan: Not providing death data on Sundays.
 * Florida: Did not update on weekend for October 10-11.
-* Washington: Did not update October 10-12 due to data entry issue. Back distribution is not available.
+* Washington: Did not update October 10-12 due to data entry issue. Back distribution is not available. As of December 20, no longer providing updates on Sundays.
 
 International
 * Sweden: Not updating case, death, or recovered data Saturday-Monday. Updates expected Tuesdays through Fridays.
