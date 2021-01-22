@@ -13,11 +13,11 @@ data = filter(data, is.na(State))
 
 data$Country[ data$Country == "United Kingdom" ] <- "UK"
 
-data = select(data, Country, ends_with("/20"))
+data = select(data, Country, matches("[0-9]+/[0-9]+/[0-9]+"))
 
 data = filter(data, Country %in% commandArgs(trailingOnly=TRUE))
 
-data = pivot_longer(data, cols=ends_with("/20"), names_to="Date", values_to="Count")
+data = pivot_longer(data, cols=matches("[0-9]+/[0-9]+/[0-9]+"), names_to="Date", values_to="Count")
 
 data = mutate(data, Date=mdy(Date))
 
