@@ -3097,7 +3097,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 44003,Kent,Rhode Island,US,2020-12-05 05:27:36,41.67106337,-71.57641596,6109,145,0,5964,"Kent, Rhode Island, US",3718.379470698512,2.3735472254051397
 44005,Newport,Rhode Island,US,2020-12-05 05:27:36,41.5642026,-71.26569799,1380,10,0,1370,"Newport, Rhode Island, US",1681.2455836846082,0.7246376811594203
 44007,Providence,Rhode Island,US,2020-12-05 05:27:36,41.87064746,-71.57753536,40206,1060,0,39146,"Providence, Rhode Island, US",6292.698272583424,2.636422424513754
-90044,Unassigned,Rhode Island,US,2020-12-05 05:27:36,,,10432,59,0,10373,"Unassigned, Rhode Island, US",,0.5655674846625767
+90044,Unassigned,Rhode Island,US,2020-12-05 05:27:36,,,10432,112,0,10373,"Unassigned, Rhode Island, US",,0.5655674846625767
 44009,Washington,Rhode Island,US,2020-12-05 05:27:36,41.45961631,-71.61435303,2641,91,0,2550,"Washington, Rhode Island, US",2103.0921267429544,3.445664521014767
 45001,Abbeville,South Carolina,US,2020-12-05 05:27:36,34.22333378,-82.46170658,1002,22,0,980,"Abbeville, South Carolina, US",4085.293757899458,2.1956087824351296
 45003,Aiken,South Carolina,US,2020-12-05 05:27:36,33.54338026,-81.63645384,6665,101,0,6564,"Aiken, South Carolina, US",3900.5805515239476,1.5153788447111778
@@ -3962,6 +3962,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 ,,Isle of Man,United Kingdom,2020-12-05 05:27:36,54.2361,-4.5481,370,25,344,1,"Isle of Man, United Kingdom",435.130303885596,6.756756756756757
 ,,Montserrat,United Kingdom,2020-12-05 05:27:36,16.742498,-62.187366,13,1,12,0,"Montserrat, United Kingdom",260.05201040208044,7.6923076923076925
 ,,Northern Ireland,United Kingdom,2020-12-05 05:27:36,54.7877,-6.4923,54177,1032,0,53145,"Northern Ireland, United Kingdom",2879.3048469387754,1.9048673791461321
+,,"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,2020-12-05 05:27:36,-7.9467,-14.3559,3,0,3,0,"Saint Helena, Ascension and Tristan da Cunha, United Kingdom",,
 ,,Scotland,United Kingdom,2020-12-05 05:27:36,56.4907,-4.2026,98686,3889,0,94797,"Scotland, United Kingdom",1806.3441509710249,3.9407818738220213
 ,,Turks and Caicos Islands,United Kingdom,2020-12-05 05:27:36,21.694000000000006,-71.7979,755,6,738,11,"Turks and Caicos Islands, United Kingdom",1949.997417221964,0.7947019867549668
 ,,Unknown,United Kingdom,2020-12-05 05:27:36,,,0,0,0,0,"Unknown, United Kingdom",,

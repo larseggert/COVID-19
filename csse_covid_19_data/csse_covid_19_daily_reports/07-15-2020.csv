@@ -2843,7 +2843,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 90040,Unassigned,Oklahoma,US,2020-07-16 04:44:59,,,0,0,0,0,"Unassigned, Oklahoma, US",,
 90041,Unassigned,Oregon,US,2020-07-16 04:44:59,,,0,0,0,0,"Unassigned, Oregon, US",,
 90042,Unassigned,Pennsylvania,US,2020-07-16 04:44:59,,,0,0,0,0,"Unassigned, Pennsylvania, US",,
-90044,Unassigned,Rhode Island,US,2020-07-16 04:44:59,,,1438,987,0,451,"Unassigned, Rhode Island, US",,68.63699582753824
+90044,Unassigned,Rhode Island,US,2020-07-16 04:44:59,,,1438,21,0,451,"Unassigned, Rhode Island, US",,68.63699582753824
 90045,Unassigned,South Carolina,US,2020-07-16 04:44:59,,,0,0,0,0,"Unassigned, South Carolina, US",,
 90046,Unassigned,South Dakota,US,2020-07-16 04:44:59,,,0,0,0,0,"Unassigned, South Dakota, US",,
 90047,Unassigned,Tennessee,US,2020-07-16 04:44:59,,,1055,1,0,1054,"Unassigned, Tennessee, US",,0.0947867298578199
@@ -3524,6 +3524,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 ,,Sachsen-Anhalt,Germany,2020-07-16 04:44:59,51.9503,11.6923,1931,62,1815,54,"Sachsen-Anhalt, Germany",87.44199778927067,3.2107716209218022
 ,,Saga,Japan,2020-07-16 04:44:59,33.286977,130.115738,45,0,45,0,"Saga, Japan",5.523431008050707,0.0
 ,,Saint Barthelemy,France,2020-07-16 04:44:59,17.9,-62.8333,6,0,6,0,"Saint Barthelemy, France",60.69802731411229,0.0
+,,"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,2020-07-16 04:44:59,-7.9467,-14.3559,0,0,0,0,"Saint Helena, Ascension and Tristan da Cunha, United Kingdom",,
 ,,Saint Petersburg,Russia,2020-07-16 04:44:59,59.960673899999996,30.158655100000004,28406,1676,21746,4984,"Saint Petersburg, Russia",530.7613040890818,5.900161937618813
 ,,Saint Pierre and Miquelon,France,2020-07-16 04:44:59,46.8852,-56.3159,2,0,1,1,"Saint Pierre and Miquelon, France",34.51251078515962,0.0
 ,,Saitama,Japan,2020-07-16 04:44:59,35.997101,139.347635,1568,67,1103,398,"Saitama, Japan",21.33422443631319,4.2729591836734695
