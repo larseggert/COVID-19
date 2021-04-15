@@ -665,7 +665,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 16037,Custer,Idaho,US,2020-05-26 02:32:35,44.24186819,-114.2855494,2,0,0,2,"Custer, Idaho, US"
 31041,Custer,Nebraska,US,2020-05-26 02:32:35,41.39374521,-99.72805369,31,4,0,27,"Custer, Nebraska, US"
 40039,Custer,Oklahoma,US,2020-05-26 02:32:35,35.63853802,-99.00170785,12,0,0,12,"Custer, Oklahoma, US"
-39035,Cuyahoga,Ohio,US,2020-05-26 02:32:35,41.424119,-81.65918339,3963,228,0,3746,"Cuyahoga, Ohio, US"
+39035,Cuyahoga,Ohio,US,2020-05-26 02:32:35,41.424119,-81.65918339,3963,231,0,3746,"Cuyahoga, Ohio, US"
 13083,Dade,Georgia,US,2020-05-26 02:32:35,34.854916700000004,-85.50490424,27,1,0,26,"Dade, Georgia, US"
 27037,Dakota,Minnesota,US,2020-05-26 02:32:35,44.67172617,-93.06299363,1102,35,0,1067,"Dakota, Minnesota, US"
 31043,Dakota,Nebraska,US,2020-05-26 02:32:35,42.39040144,-96.56656425,1612,15,0,1597,"Dakota, Nebraska, US"
@@ -1202,7 +1202,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 37093,Hoke,North Carolina,US,2020-05-26 02:32:35,35.01888303,-79.23651674,197,1,0,196,"Hoke, North Carolina, US"
 12059,Holmes,Florida,US,2020-05-26 02:32:35,30.86747479,-85.81319222,14,0,0,14,"Holmes, Florida, US"
 28051,Holmes,Mississippi,US,2020-05-26 02:32:35,33.12345854,-90.08923538,369,23,0,346,"Holmes, Mississippi, US"
-39075,Holmes,Ohio,US,2020-05-26 02:32:35,40.56163713,-81.92635677,27,3,0,26,"Holmes, Ohio, US"
+39075,Holmes,Ohio,US,2020-05-26 02:32:35,40.56163713,-81.92635677,27,2,0,26,"Holmes, Ohio, US"
 29087,Holt,Missouri,US,2020-05-26 02:32:35,40.09799248,-95.2163888,1,0,0,1,"Holt, Missouri, US"
 31089,Holt,Nebraska,US,2020-05-26 02:32:35,42.45522056,-98.78402558,1,0,0,1,"Holt, Nebraska, US"
 15003,Honolulu,Hawaii,US,2020-05-26 02:32:35,21.45803166,-157.97121819999995,414,11,0,403,"Honolulu, Hawaii, US"
@@ -1686,7 +1686,7 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 21155,Marion,Kentucky,US,2020-05-26 02:32:35,37.55218078,-85.26898542,18,0,0,18,"Marion, Kentucky, US"
 28091,Marion,Mississippi,US,2020-05-26 02:32:35,31.23132643,-89.8209217,110,8,0,102,"Marion, Mississippi, US"
 29127,Marion,Missouri,US,2020-05-26 02:32:35,39.80601912,-91.62203062,5,0,0,5,"Marion, Missouri, US"
-39101,Marion,Ohio,US,2020-05-26 02:32:35,40.58610662,-83.15736305,2619,17,0,2598,"Marion, Ohio, US"
+39101,Marion,Ohio,US,2020-05-26 02:32:35,40.58610662,-83.15736305,2619,19,0,2598,"Marion, Ohio, US"
 41047,Marion,Oregon,US,2020-05-26 02:32:35,44.90287942,-122.5815117,909,25,0,884,"Marion, Oregon, US"
 45067,Marion,South Carolina,US,2020-05-26 02:32:35,34.07859748,-79.36400756,65,5,0,60,"Marion, South Carolina, US"
 47115,Marion,Tennessee,US,2020-05-26 02:32:35,35.12997174,-85.62265895,36,1,0,35,"Marion, Tennessee, US"
@@ -3411,3 +3411,5 @@ FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths
 ,,,Yemen,2020-05-26 02:32:35,15.552727,48.516388,233,44,10,179,Yemen
 ,,,Zambia,2020-05-26 02:32:35,-13.133897,27.849332,920,7,336,577,Zambia
 ,,,Zimbabwe,2020-05-26 02:32:35,-19.015438,29.154857,56,4,25,27,Zimbabwe
+2066,Copper River,Alaska,US,2021-04-02 15:13:53,60.3886,-162.8905196,0,0,0,0,"Copper River, Alaska, US"
+2063,Chugach,Alaska,US,2021-04-02 15:13:53,61.16666,-149.9,2,0,0,0,"Chugach, Alaska, US"
